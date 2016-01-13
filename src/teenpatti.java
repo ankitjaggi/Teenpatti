@@ -11,7 +11,7 @@ class teenpatti {
 	static BufferedReader y=new BufferedReader(x);
 	
 	static int totbet=0,resusr,rescmp,gameover=0,bet=0,cc=0;
-	static String hands[]={"High Card","Pair","Colour","Sequence","Couloured Sequence","Trail"};
+	static String hands[]={"High Card","Pair","Colour","Sequence","Coloured Sequence","Trail"};
 	static String card[]={"2H","3H","4H","5H","6H","7H","8H","9H","10H","JH","QH","KH","AH","2S","3S","4S","5S","6S","7S","8S","9S","10S","JS","QS","KS","AS","2C","3C","4C","5C","6C","7C","8C","9C","10C","JC","QC","KC","AC","2D","3D","4D","5D","6D","7D","8D","9D","10D","JD","QD","KD","AD"};
 	static String play[]={"Fold","Raise","Raise","Bet","Bet","Show"};
 	public static void main(String[] args) throws NumberFormatException, IOException
